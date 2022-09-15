@@ -1,0 +1,19 @@
+environment:
+  int:
+    environmentNname: uat
+    title: Selenium
+    appUrl: https://www.selenium.dev
+    active: true
+  test:
+    environmentName: test
+    title: Logback Home
+    appUrl: https://logback.qos.ch/
+    active: false
+
+browser:
+  browserName: chrome
+  attachscreenshot: true
+  headless: true
+  webelementTimeout: 60
+
+
